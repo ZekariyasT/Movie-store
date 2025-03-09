@@ -2,8 +2,15 @@ import "./App.css";
 
 function App() {
   return (
+    <>
+      <Text />
+    </>
+  );
+}
+function Text() {
+  return (
     <div>
-      <p>Hello world</p>
+      <p>Hello World</p>
     </div>
   );
 }
