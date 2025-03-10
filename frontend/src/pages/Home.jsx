@@ -7,7 +7,11 @@ function Home() {
     { id: 1, title: "Terminator", release_date: "1999" },
     { id: 1, title: "The matrix", release_date: "1998" },
   ];
-  const handleSearch = () => {};
+  const handleSearch = (e) => {
+    e.preventDefault();
+    alert(searchQuery);
+    setSearchQuery("");
+  };
   return (
     <div className="home">
       <form onSubmit={handleSearch}>
