@@ -24,5 +24,5 @@ cd movie-store/frontend
 npm install
 ```
 
-<img src="./assets/cover1.png"/><br/>
+<img src="./assets/cover1.png"/>
 <img src="./assets/cover2.png/>
